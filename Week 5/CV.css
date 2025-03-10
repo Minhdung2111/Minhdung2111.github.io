@@ -46,3 +46,17 @@ nav a {
 
 
 .Profile{display: flex;justify-content: flex-end;}
+thead {
+    background-color: #bf5fc1;
+    color: black;
+    text-align: center; 
+}
+tbody {
+    background-color: #c58cc6;
+    text-align: center;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%
+}
