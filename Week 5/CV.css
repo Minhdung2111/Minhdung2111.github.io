@@ -2,6 +2,28 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #e1c1e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    width: 200px;
+    border-radius: 50%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #a0559f;
+    padding-bottom: 20px;
 }
 
 nav ul {
@@ -17,44 +39,51 @@ nav ul li {
     font-size: 15px;
     line-height: 25px;
 }
+
 nav ul li a:hover {
     color: red;
 }
+
 header h1{
    text-align: center;
 }
-article header p{ font-style: italic;}
-main{padding-left: 20px;}
 
-.my-list img {
-    width: 150px; 
-    height: 180px; 
-    border-image-source: 50%;
-    display: block;
-
+article header p{ 
+    font-style: italic;
 }
+
+main {
+    padding-left: 20px;
+}
+
 main article {
     background: rgb(242, 213, 243);
     margin: 10px;
     padding: 5px;
     
 }
+
 nav a {
     text-decoration: none;
     color: #000000;
 }
 
+.Profile{
+    display: flex;
+    justify-content: flex-end;
+}
 
-.Profile{display: flex;justify-content: flex-end;}
 thead {
-    background-color: #bf5fc1;
+    background-color: #b855b9;
     color: black;
     text-align: center; 
 }
+
 tbody {
-    background-color: #c58cc6;
+    background-color: #dcabdd;
     text-align: center;
 }
+
 table {
     border: 1px solid black;
     border-collapse: collapse;
