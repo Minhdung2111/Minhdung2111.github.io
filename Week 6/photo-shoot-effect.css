@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300,400,900";
 
-* {
+* { /*Universal Selector (Chọn tất cả phần tử trên trang).*/
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@ body {
     color: #fcfcfc;
     background-color: #355664;
     width: 960px;
-    margin: 0 auto;
+    margin: 0 auto; /*Căn giữa nội dung trang.*/
 }
 
 h1, h2, h3 {
@@ -21,16 +21,16 @@ h1 {
     font-size: 50px;
     padding: 10px 0 0;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: uppercase; /*Viết hoa toàn bộ chữ.*/
 }
 
 h2 {
     font-size: 40px;
-    letter-spacing: 15px;
+    letter-spacing: 15px; /*Giãn chữ 15px.*/
     text-align: center;
     text-transform: uppercase;
-    border-bottom: 3px solid #416371;
-    padding-bottom: 20px;
+    border-bottom: 3px solid #416371; /*Gạch chân tiêu đề bằng đường màu xanh đậm.*/
+    padding-bottom: 20px; /*Tạo khoảng cách dưới 20px.*/
 }
 
 h3 {
@@ -47,7 +47,7 @@ p {
     margin-left: 15px;
 }
 
-figure + p {
+figure + p { /*Chọn đoạn văn bản (p) ngay sau một thẻ <figure>.*/
     color: white;
 }
 
@@ -81,16 +81,16 @@ nav ul li a {
     font-size: 30px;
     margin: 5px 2px;
     padding: 7px 10px 4px;
-    text-transform: uppercase;
+    text-transform: uppercase; /*Viết hoa chữ cái đầu*/
 }
 
-nav ul li:first-of-type > a {
+nav ul li:first-of-type > a { /*Chọn a bên trong li đầu tiên.*/
     color: #7CB3E9;
     font-size: 30px;
     text-transform: lowercase;
 }
 
-nav ul a[title="sweet tabs"] {
+nav ul a[title="sweet tabs"] { /*Chọn tất cả thẻ <a> (liên kết) bên trong <ul>, nhưng chỉ áp dụng cho các <a> có thuộc tính title="sweet tabs"*/
     color: #8EC45B;
     font-size: 30px;
     text-transform: none;

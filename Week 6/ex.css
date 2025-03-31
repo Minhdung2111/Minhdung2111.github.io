@@ -1,8 +1,10 @@
-* {font: 20px "Comic Sans MS";}
+* {
+    font: 20px "Comic Sans MS";
+}
 MyCustomizeTag {
     display: block;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: capitalize; /*Viết hoa chữ cái đầu tiên của từng từ.*/
     text-decoration: underline;
     width: 500px;
 }
@@ -16,7 +18,7 @@ div {
     color: #f00;
     width: 400px;
 }
-#TheHighestPriority {
+#TheHighestPriority { /*Chọn phần tử có id="TheHighestPriority".*/
     background-color: #000;
     font-weight: none;
     font: italic 30px "Times New Roman";

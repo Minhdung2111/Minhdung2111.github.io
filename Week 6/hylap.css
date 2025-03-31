@@ -45,33 +45,35 @@ nav a {
     font-size: 28px;
     color: #000000;
  }
-nav ul li {
-    list-style: none;
-    display: inline;
-    padding: 0 12px 0 12px;}
-nav ul li:first-of-type a,nav ul li:last-of-type a {
+nav ul li { /* Chọn tất cả các <li> bên trong <ul> trong <nav>.*/
+    list-style: none; /*Xóa dấu chấm mặc định của danh sách.*/
+    display: inline; /*Hiển thị <li> trên cùng một hàng ngang.*/
+    padding: 0 12px 0 12px; /*Tạo khoảng cách 12px giữa các mục menu.*/
+}
+nav ul li:first-of-type a, nav ul li:last-of-type a { /*Chọn link đầu tiên trong menu.*/
     padding-left: 0;
     color: #0a2d4a;
     font-weight: bold; }
 article {
     width: 370px;
-    display: inline-block;}
+    display: inline-block; /*Giúp article nằm trên cùng một hàng với các phần tử khác.*/
+}
 main {
     margin-top: 30px;
 }
-main > article img {
+main > article img { /* Chọn tất cả <img> nằm trong <article> bên trong <main>.*/
     width: 350px;
     height: 200px;
     margin-bottom: 20px;
 }
 p {
     width: 345px;
-    text-align: justify;
-    margin-bottom: 20px 
+    text-align: justify; /*Căn đều hai bên văn bản.*/
+    margin-bottom: 20px  /*Tạo khoảng cách 20px phía dưới ảnh.*/
 }
-article img + p:first-letter {
-    font-family:EucrosiaUPC sans-serif;
-    text-transform: uppercase;
+article img + p:first-letter { /*Chọn chữ cái đầu tiên của đoạn <p> ngay sau <img> trong <article>.*/
+    font-family:EucrosiaUPC, sans-serif;
+    text-transform: uppercase; /*Viết hoa chữ cái đầu.*/
     font-size: 40px;
 }
 .readmore a, .comments a {
@@ -121,7 +123,7 @@ p.posted-by .author {
     gap: 5px; /* Khoảng cách giữa các nút */
 }
 
-.comments a {
+.comments a { /*Chọn tất cả thẻ <a> bên trong phần tử có class .comments.*/
     display: flex;
     align-items: center;
     justify-content: center;
